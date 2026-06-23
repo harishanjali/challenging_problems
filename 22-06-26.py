@@ -73,7 +73,8 @@ for d in user_input:
     if d=='0':
         c+=1
     else:
-        s = c
+        if c>s:
+            s = c
         c = 0
 print(s)'''
 
